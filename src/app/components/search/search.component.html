@@ -1,0 +1,11 @@
+<h1>Weather App</h1>
+
+<form [formGroup]="form" (ngSubmit)="getWeather()">
+    <table>
+        <tr>
+            <td>City</td>
+            <td><input formControlName="city"></td>
+            <td><button type="submit">Get</button></td>
+        </tr>
+    </table>
+</form>
